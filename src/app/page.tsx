@@ -34,21 +34,21 @@ export default function Home() {
           { title: "Photo 5", image: "/images/placeholder5.avif" },
           { title: "Photo 6", image: "/images/placeholder6.avif" },
           { title: "Photo 7", image: "/images/placeholder7.avif" },
-          { title: "Photo 8", image: "/images/placeholderwide2.jpg" },
+          { title: "Photo 8", image: "/images/placeholderwide2.jpg" }
         ]} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" />
       </section>
       <section id="services" className="py-20 bg-[#0A0A12]">
         <SimpleKPIBento items={[
-          { value: "Photography", description: "Professional high-quality images", longDescription: "We specialize in creating compelling imagery that tells your story via professional photography.", icon: null },
-          { value: "Editing", description: "Creative photo editing", longDescription: "Our editing services add the final touch to your images, enhancing the storytelling potential.", icon: null },
-          { value: "Consultation", description: "Personalized consultations", longDescription: "Let's discuss how we can best capture your vision and bring it to life.", icon: null },
+          { value: "Photography", description: "Professional high-quality images" },
+          { value: "Editing", description: "Creative photo editing" },
+          { value: "Consultation", description: "Personalized consultations" }
         ]} className="grid grid-cols-1 md:grid-cols-2 gap-5" />
       </section>
       <section id="testimonials" className="py-20 bg-[#0A0A12]">
         <Testimonials items={[
           { quote: "Incredible service and stunning photos!", name: "Client 1" },
           { quote: "Simply the best photography experience I've ever had!", name: "Client 2" },
-          { quote: "Highly professional and very creative!", name: "Client 3" },
+          { quote: "Highly professional and very creative!", name: "Client 3" }
         ]} className="text-center" />
       </section>
       <section id="contact" className="py-20 bg-[#0A0A12]">
