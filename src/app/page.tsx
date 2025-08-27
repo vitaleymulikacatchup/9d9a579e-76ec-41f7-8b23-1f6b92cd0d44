@@ -20,6 +20,8 @@ export default function Home() {
           subtitle="Capturing moments through a futuristic lens"
           primaryButtonText="Inquire Now"
           secondaryButtonText="View Portfolio"
+          onPrimaryButtonClick={() => {}}
+          onSecondaryButtonClick={() => {}}
         />
       </section>
       <section id="about" className="py-20 bg-[#0A0A12]">
